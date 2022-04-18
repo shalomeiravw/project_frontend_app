@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EF40EF4-B8EF-4075-9270-46F9C9E689B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SAA_AD_Revisi</RootNamespace>
+    <AssemblyName>SAA_AD_Revisi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\MATERI KULIAH\Semester 2\Application Development\UAS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>698B344ED64ADF4E23CAD8E59EA9F5605609109E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SAA_AD_Revisi_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAlasanCancel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlasanCancel.Designer.cs">
+      <DependentUpon>FormAlasanCancel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAwal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAwal.Designer.cs">
+      <DependentUpon>FormAwal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCart.Designer.cs">
+      <DependentUpon>FormCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCheckout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckout.Designer.cs">
+      <DependentUpon>FormCheckout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComplete.Designer.cs">
+      <DependentUpon>FormComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFAQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFAQ.Designer.cs">
+      <DependentUpon>FormFAQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormForgotPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormForgotPass.Designer.cs">
+      <DependentUpon>FormForgotPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKritikSaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKritikSaran.Designer.cs">
+      <DependentUpon>FormKritikSaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuFavorit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuFavorit.Designer.cs">
+      <DependentUpon>FormMenuFavorit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNota.Designer.cs">
+      <DependentUpon>FormNota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrder.Designer.cs">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPesanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPesanan.Designer.cs">
+      <DependentUpon>FormPesanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfil.Designer.cs">
+      <DependentUpon>FormProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRating.Designer.cs">
+      <DependentUpon>FormRating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSignUp.Designer.cs">
+      <DependentUpon>FormSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAlasanCancel.resx">
+      <DependentUpon>FormAlasanCancel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAwal.resx">
+      <DependentUpon>FormAwal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCart.resx">
+      <DependentUpon>FormCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheckout.resx">
+      <DependentUpon>FormCheckout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComplete.resx">
+      <DependentUpon>FormComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFAQ.resx">
+      <DependentUpon>FormFAQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormForgotPass.resx">
+      <DependentUpon>FormForgotPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKritikSaran.resx">
+      <DependentUpon>FormKritikSaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuFavorit.resx">
+      <DependentUpon>FormMenuFavorit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNota.resx">
+      <DependentUpon>FormNota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrder.resx">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPesanan.resx">
+      <DependentUpon>FormPesanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfil.resx">
+      <DependentUpon>FormProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRating.resx">
+      <DependentUpon>FormRating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSignUp.resx">
+      <DependentUpon>FormSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SAA_AD_Revisi_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\399_IMG_2819.jpg-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\399_IMG_2819.jpg-removebg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CART.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOME.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg sayur oren.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

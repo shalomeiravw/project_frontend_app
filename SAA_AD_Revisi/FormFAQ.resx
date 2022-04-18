@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>- Menu apa saja yang ada di Eatez?
+   Menu yang kami sediakan bervariasi dan berganti setiap harinya. Anda bisa memilih menu sesuai selera 
+   berdasarkan jadwal menu yang tertera.
+- Siapa yang memasak menu di Eatez?
+   Setiap sajian dari Eatez dimasak dan dipersiapkan oleh tim chef dan tim packaging yang telah 
+   berpengalaman dalam dunia kuliner.
+- Adakah menu khusus diet?
+   Saat ini kami belum menyediakan menu khusus diet.
+- Saya alergi makanan tertentu. Apakah saya bisa mengganti menu tersebut dengan lauk lain pada hari itu?
+   Menu kami tidak dibuat berdasarkan pesanan pribadi setiap pemesan. Apabila Anda alergi terhadap 
+   menu yang kami 
+   sajikan pada hari itu, kami menganjurkan Anda bisa memilih menu lainnya.
+- Saya memesan menu ayam, tetapi saya ingin ayam bagian dada. Apakah saya bisa memilih bagian tersebut?
+   Permintaan khusus tersebut tidak dapat kami tindak lanjuti karena menyesuaikan stok yang tersedia. 
+   Tetapi kami akan memberikan menu yang terbaik bagi Anda.</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>- Bagaimana cara memesan makanan di Eatez?
+  Apabila Anda telah memiliki akun di www.eatez.com, silahkan login akun Anda dan pilih menu yang diinginkan. Klik (+) agar menu masuk ke dalam keranjang belanja. 
+  Jumlah pesanan bisa diatur dengan tombol (+) dan (-) yang telah disediakan. Jika Anda ingin menyelesaikan pemesanan, klik “Lanjut ke Pembayaran” di kanan bawah. 
+  Pada halaman checkout pastikan detail pesanan Anda sudah benar. Isi alamat pengiriman, metode pembayaran, dan catatan khusus mengenai pesanan Anda. 
+  Klik “Pesan” untuk finalisasi order. 
+  Anda akan menerima email konfirmasi pesanan dari tim Eatez.
+- Apakah ada minimal order tertentu untuk mendapat gratis ongkos pengiriman?
+  Gratis ongkos kirim berlaku apabila Anda melakukan pemesanan menu menggunakan metode pembayaran Eatez Wallet tanpa minimal order. 
+  Gratis ongkir juga berlaku bila membayar COD atau transfer sebanyak 2 box atau lebih.
+- Saya memesan menu sebanyak 2 box untuk hari yang berbeda dengan menggunakan Eatez Wallet, apakah akan tetap mendapat gratis biaya kirim?
+  Anda akan tetap mendapat gratis biaya pengiriman karena telah memesan 2 menu box dengan pembayaran Eatez Wallet.
+- Apakah menu Eatez bisa dipesan untuk area di luar kota Surabaya?
+  Maaf untuk saat ini kami hanya melayani wilayah kota Surabaya. Harapan kami dalam waktu dekat ini Eatez bisa menjangkau kota-kota lain.
+- Bagaimana mengetahui keberadaan pesanan saya?
+  Anda dapat menghubungi customer service kami melalui telepon (031) 545 1200 / 1202 atau live chat di website kami, atau email ke .
+- Apakah saya bisa mengubah alamat pengiriman makanan setelah pesanan saya dikonfirmasi?
+  Anda tidak bisa mengubah alamat pengiriman. Pastikan detail pesanan Anda sudah benar sebelum Anda melakukan pemesanan.
+- Apakah saya bisa melakukan pembatalan pesanan yang sudah dikonfirmasi?
+  Anda bisa membatalkan pesanan yang sudah dikonfirmasi. Pembatalan hanya bisa melalui 
+  tim Eatez dengan menghubungi customer service kami melalui telepon 
+  (031) 545 1200 / 1202 atau live chat di website kami, atau email ke . Batas waktu pembatalan 
+ adalah pukul 16.00 WIB hari sebelumnya. 
+- Apakah saya bisa memesan makanan secara “Cook by Order/On Demand” untuk berlangganan Eatez?
+  Anda tidak bisa melakukan pemesanan dengan sistem “Cook by Order/On Demand”. 
+  Semua pemesanan dilakukan secara pre-order. Pemesanan untuk hari besok paling lambat pukul 18.00 WIB hari sebelumnya.
+- Apakah saya bisa memesan menu Eatez untuk 2 alamat yang berbeda sekaligus?
+  Saat ini kami hanya melayani pemesanan untuk 1 tujuan alamat. Anda harus membuat order baru untuk tujuan alamat berbeda.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>- Bagaimana metode pembayaran pemesanan menu di Eatez?
+   Anda bisa memilih metode pembayaran melalui transfer ke rekening kami di BCA No. Rekening: 088 999 555 8. Bank Mandiri No. Rekening: 14000 575 999 88. 
+   Cash on Delivery (COD).
+- Bagaimana caranya agar mengetahui bahwa pembayaran tersebut berhasil atau gagal dilakukan ketika koneksi internet mengalami gangguan pada saat melakukan pembayaran?
+  Semua transaksi pemesanan yang berhasil akan menerima email konfirmasi dari tim Eatez. 
+- Apabila Anda tidak menerima email tersebut, Anda bisa melakukan pemesanan kembali. 
+  Jangan ragu menghubungi customer service kami melalui telepon (031) 545 1200 / 1202 , atau email ke christophetekvi@gmail.com
+- Kapan batas terakhir pembayaran setelah saya melakukan pemesanan?
+  Maksimal 3 jam setelah Anda melakukan pemesan pada website kami. Apabila Anda belum membayar setelah 3 jam dari jam pemesanan, 
+  maka order Anda akan otomatis cancel.
+  Sedangkan pembayaran COD dilakukan saat Anda menerima pesanan Anda.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AABNkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TpL//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//0uO+f9Hhu3/TZD9/02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9IifH/I0J1/xkwVP8xXKL/S4z3/02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Ok///TpP//06S//9Okv//TpP//06S//9Ok///TpP//06T//9Ok///TpP//0WC5P8PHjX/EyRB/w8c
+        Mv84arr/TpL//02S//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//S434/0F51f87ccb/QHnU/0SA4f8/d9H/QHnV/z50zP9Bedb/PXPL/0J82/9Ef+D/Om7C/ydL
+        g/8YLVH/CREe/xYpSf86cMT/S433/02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R/v8xXKL/EyZC/xguUP8ZMFX/FipL/xIiPf8SIz3/EiM+/xIjPf8UJUD/GS9T/xgu
+        Uv8bNFz/GzRb/yZJgf8aMFb/ChMi/xYqSv8xXaP/TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TJD9/xcrTf8dN2H/RIDi/ztxxv8QHjb/EyVB/xszWv8iQXP/EiE7/x87
+        aP8lR33/Bw4Y/x02X/8hP2//Dhwy/wQIDv8VJ0T/MFqe/x03YP9Df9//TpL//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9NkP7/JER3/xIhO/8mSYD/NGOu/yxTkv8TIz3/I0J0/xct
+        T/8fO2j/GC5R/zltv/8NGi3/FyxO/xMjPv8uVpn/LVWX/xEhOf8zX6j/P3fS/0iH7v9Nkv//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9FgeT/GzNZ/wcOF/8mSYH/QXzb/xoz
+        Wv8QIDf/ECA3/yA8av8KEiH/Jkd//yNEeP8TJUH/GjFX/zJepf8YL1P/EiM9/zpuwf9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//0yO+v8nSoP/FipK/zpu
+        wv8vWZ3/QXza/zxxyP88csf/Om/D/xYqS/8fOmj/R4bs/z920P9Gg+b/RYPn/zhqu/9Aetb/TJD8/02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//ztu
+        w/8VJ0b/ESE6/xw2Xv9JivL/TpL//06S//9Nkf7/L1uf/x03Yv9KjPb/TpL//02S//9Nkf//TpP//02S
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TI/6/0F61/87b8T/RILj/02Q/v9Nkf//TZH//02R//9IiPD/QXvY/0yP+/9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TpL//06T//9Okv//TZH//02R//9Nkf//TZH//02R//9Okv//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R//9Nkf//TZH//02R
+        //9Nkf//TZH//02R//9Nkf//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
